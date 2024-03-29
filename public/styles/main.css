@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&family=Honk&family=Noto+Color+Emoji&family=Vollkorn&display=swap');
+
+html {
+    background-image: url('../cat_background.svg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+body {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.container {
+    background-color: #f5f5f5e9; 
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.emoji {
+    font-family: "Noto Color Emoji", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+img {
+    max-width: 500px;
+    max-height: 305px;
+    height: auto;
+}
+button {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 2rem;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.footer {
+    text-align: center;
+    position: fixed;
+    font-size: small;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: #f5f5f5a3; 
+    color: black; 
+    padding: 7px;
+}
