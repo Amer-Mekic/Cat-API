@@ -23,9 +23,6 @@ app.get("/get-a-cat", async (req, res) => {
         const catData = response1.data;
         const name = response2.data;
 
-        console.log(catData);
-        console.log(name);
-
         res.render("index.ejs", {
             name:name,
             cat:catData

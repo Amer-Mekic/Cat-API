@@ -3,12 +3,13 @@
     <% if(!locals.cat && !locals.name){ %>
         <h1>Cat Summoner</h1>
         <h2>Click the button below to summon a cat!</h2>
-        <button onclick="window.location.href='/get-a-cat'"><span class="emoji">🧙🪄🐱</span></button>
+        <button onclick="window.location.href='/get-a-cat'" style="margin:0; font-size: 2rem;"><span class="emoji">🧙🪄🐱</span></button>
     <% } else { %>
     <div class="container">
         <h1>You've summoned:</h1>
         <h2><%= name %></h2>
-        <img src="<%=cat[0].url%>" alt="Cat Image" width="<%=cat[0].width%>" height="<%=cat[0].height%>">
+        <img src="<%=cat[0].url%>" alt="Cat Image" width="<%=cat[0].width%>" height="<%=cat[0].height%>"><br>
+        <button onclick="window.location.href='/get-a-cat'"><span class="emoji">New Cat</span></button>
     </div>
     <% } %>
 </div>
